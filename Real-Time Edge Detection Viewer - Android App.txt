@@ -1,0 +1,16 @@
+/EdgeDetectionViewer
+├── app/
+│   ├── src/main/
+│   │   ├── java/com/example/edgedetectionviewer/
+│   │   │   ├── CameraActivity.kt
+│   │   │   ├── CameraHelper.kt
+│   │   │   └── GLRenderer.kt
+│   │   ├── jni/
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── edge_detector.cpp
+│   │   │   └── edge_detector.h
+│   │   └── res/
+│   │       └── layout/activity_camera.xml
+│   └── build.gradle
+├── README.md
+└── build.gradle
