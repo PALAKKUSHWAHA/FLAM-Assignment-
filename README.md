@@ -1,1 +1,4 @@
 # FLAM-Assignment-
+EdgeDetectionViewer
+EdgeDetectionViewer is an Android app that performs real-time edge detection using a combination of Kotlin, OpenGL, and native C++ via the Android NDK. The app captures live camera input, processes frames through a custom edge detection algorithm implemented in C++, and renders the processed output using OpenGL ES. It leverages JNI for communication between Kotlin and C++, with CameraActivity.kt handling the UI and camera operations, GLRenderer.kt managing OpenGL rendering, and native code in edge_detector.cpp performing edge detection. The project uses CMake to build native components. Ideal for learning native Android image processing and real-time rendering, it can be extended with additional filters, optimization, and save functionality. Build the project using Android Studio with NDK and CMake support enabled.
+
